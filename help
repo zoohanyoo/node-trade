@@ -1,0 +1,23 @@
+命令帮助:
+
+            direction:0 buy 1 sell
+            priceType: 任意价 2 限价 3最优价 4最新价 8卖一价 C买一价
+            offsetFlag: 0 开仓 1 平仓 3平今 4 平昨
+            time condition: 1 立即有效 3 当日有效
+            volume condition: 1 任何数量 2 最小数量 全部数量
+            contingent condition: 1 立即 2止损 3止赢 4预埋单
+            -d 方向 -p价格 -s止损价 -q数量 -i合约 -r订单引用 
+
+显示帮助文档                <help>
+配置:                       <echo>
+清屏:                       <clear>
+获取结算信息:               <info>    
+确认计算信息:               <confirm> 
+查询合约:                   <instrunment> <-i> -i:合约
+查询资金账户:               <account>
+查询持仓信息:               <position> <-i> -i:合约
+查询持仓明细:               <p-detail> <-i> -i:合约
+止损:                       <stop> <-ref -s> -ref:持仓号 -s止损价
+平仓:                       <close> <-ref> -ref:持仓号
+撤单:                       <action> <-ref> -ref:委托编号
+

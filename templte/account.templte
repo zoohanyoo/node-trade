@@ -1,0 +1,8 @@
+投资者帐号    :#AccountID     入金金额    :#Deposit
+出金金额      :#Withdraw      冻结的保证金:#FrozenMargin
+冻结的资金    :#FrozenCash    冻结的手续费:#FrozenCommission
+当前保证金总额:#CurrMargin    手续费      :#Commission
+平仓盈亏      :#CloseProfit   持仓盈亏    :#PositionProfit
+期货结算准备金:#Balance       可用资金    :#Available
+可取资金      :#WithdrawQuota 结算编号    :#SettlementID
+交易日        :#TradingDay    信用额度    :#Credit
